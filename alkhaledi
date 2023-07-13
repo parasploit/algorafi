@@ -1,5 +1,3 @@
-#!data/bin
-
 function Jello {
 clear
 echo
