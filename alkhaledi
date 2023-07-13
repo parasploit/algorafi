@@ -1,0 +1,50 @@
+#!data/bin
+
+function Jello {
+clear
+echo
+echo -e "\e[92m
+               ██████
+     ███          █   ██           ██  ████  █
+    ██ ██         █   █ █         █ █ █    █ █
+   ██   ██        █   █  █       █  █ █    █ █
+  █████████       █   █   █     █   █ ██████ █
+ ██       ██      █   █    █   █    █ █    █ █
+ ██       ██      █   █     █ █     █ █    █ █
+███       ██ ██████   █      █      █ █    █ ██████
+
+
+{C} Coder         :-\e[34m T.me/F_F_4
+\e[92m{CH} Channel      :-\e[34m T.me/YemenDevs
+\e[92m{T} Team          :-\e[93m Yemen Devs Team
+
+\e[97m"
+}
+
+
+
+
+
+if [ $# -eq 0 ]
+then
+Jello
+echo "Hello World !!"
+echo -e "\e[93mProgrammer \e[35m:-\e[92m Jello Alkhaledi\e[90m
+\e[93mTeam      \e[35m:-\e[92m Cyber 7x\e[90m
+\e[93mOur group \e[35m:-\e[34m t.me/phpmm\e[90m
+\e[93mMyAccount \e[35m:-\e[34m t.me/f_f_4\e[90m";
+fi
+
+if [ $# -eq 1 ]
+then
+if [ $1 == "-help" ]
+then
+echo "Use all command"
+fi
+fi
+
+
+if [ $# -ne 0 ]
+then
+echo "This is command not found !!";
+fi
