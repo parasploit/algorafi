@@ -16,7 +16,7 @@ echo -e "\e[92m
 \e[92m{CH} Channel      :-\e[34m T.me/YemenDevs
 \e[92m{T} Team          :-\e[93m Yemen Devs Team
 
-\e[97m"
+\e[0m"
 }
 
 
