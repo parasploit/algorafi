@@ -46,3 +46,5 @@ if [ $# -ne 0 ]
 then
 echo "This is command not found !!";
 fi
+
+echo -e "\e[0m"
